@@ -34,7 +34,7 @@
 ### 项目结构
 
 ```
-.
+
 ├── R/                      # R脚本文件
 │   ├── step1_server.R     # 数据预处理服务器逻辑
 │   └── step2_server.R     # LASSO分析服务器逻辑
@@ -101,7 +101,6 @@ If you already have R installed, you can choose manual installation:
 ### Project Structure
 
 ```
-.
 ├── R/                      # R script files
 │   ├── step1_server.R     # Data preprocessing server logic
 │   └── step2_server.R     # LASSO analysis server logic
@@ -168,7 +167,6 @@ R環境がすでにインストールされている場合は、手動インス�
 ### プロジェクト構造
 
 ```
-.
 ├── R/                      # R script files (Rスクリプトファイル)
 │   ├── step1_server.R     # Data preprocessing server logic (データ前処理サーバーロジック)
 │   └── step2_server.R     # LASSO analysis server logic (LASSO解析サーバーロジック)
