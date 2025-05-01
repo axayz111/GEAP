@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  shiny-app:
+    build: .
+    ports:
+      - "3838:3838"
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+    environment:
+      - LANG=C.UTF-8
+      - TZ=Asia/Shanghai
+    restart: unless-stopped 
