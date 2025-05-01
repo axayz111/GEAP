@@ -1,4 +1,3 @@
-```markdown
 # GEAP
 # 基因表达数据分析平台 | Gene Expression Analysis Analysis Platform | 遺伝子発現データ解析プラットフォーム
 
@@ -203,4 +202,4 @@ R環境がすでにインストールされている場合は、手動インス�
 - 処理済みデータは `data/processed/` ディレクトリに保存されます
 - グラフ出力は `output/plots/` ディレクトリに保存されます
 - 解析結果は `output/results/` ディレクトリに保存されます
-```
+
