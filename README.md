@@ -9,6 +9,7 @@
 
 这是一个基于R Shiny的基因表达数据分析平台，用于处理和分析基因表达数据。
 <img width="1694" alt="截屏2025-05-01 18 30 40" src="https://github.com/user-attachments/assets/a3add780-7889-4db3-8914-e2e3ed69c6e7" />
+<img width="1715" alt="截屏2025-05-01 18 33 16" src="https://github.com/user-attachments/assets/84b28011-a39a-4c28-88da-8fb57f148444" />
 
 ### 快速开始
 
