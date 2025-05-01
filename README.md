@@ -4,6 +4,9 @@
 <div align="right">
   <a href="#chinese">中文 🇨🇳</a> | <a href="#english">English 🇺🇸</a> | <a href="#japanese">日本語 🇯🇵</a>
 </div>
+---
+<img width="1694" alt="截屏2025-05-01 18 30 40" src="https://github.com/user-attachments/assets/a3add780-7889-4db3-8914-e2e3ed69c6e7" />
+<img width="1715" alt="截屏2025-05-01 18 33 16" src="https://github.com/user-attachments/assets/84b28011-a39a-4c28-88da-8fb57f148444" />
 
 ---
 
