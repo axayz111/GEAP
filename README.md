@@ -8,6 +8,7 @@
 <h2 id="chinese">中文说明</h2>
 
 这是一个基于R Shiny的基因表达数据分析平台，用于处理和分析基因表达数据。
+<img width="1694" alt="截屏2025-05-01 18 30 40" src="https://github.com/user-attachments/assets/a3add780-7889-4db3-8914-e2e3ed69c6e7" />
 
 ### 快速开始
 
