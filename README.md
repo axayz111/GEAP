@@ -11,16 +11,7 @@
 <img width="1694" alt="截屏2025-05-01 18 30 40" src="https://github.com/user-attachments/assets/a3add780-7889-4db3-8914-e2e3ed69c6e7" />
 <img width="1715" alt="截屏2025-05-01 18 33 16" src="https://github.com/user-attachments/assets/84b28011-a39a-4c28-88da-8fb57f148444" />
 
-### 快速开始
-
-1. 安装 [Docker](https://docs.docker.com/get-docker/)
-2. 克隆此仓库
-3. 运行启动脚本：
-   - Windows: 双击运行 `start.bat`
-   - Mac/Linux: 在终端中运行 `./start.sh`
-4. 在浏览器中访问 http://localhost:3838
-
-### 手动安装（可选）
+### 手动安装(推荐)
 
 如果您已经安装了R环境，也可以选择手动安装：
 
@@ -31,6 +22,17 @@
    ./run.sh
    ```
 4. 在浏览器中访问 http://127.0.0.1:3838
+   
+### 快速开始
+
+1. 安装 [Docker](https://docs.docker.com/get-docker/)
+2. 克隆此仓库
+3. 运行启动脚本：
+   - Windows: 双击运行 `start.bat`
+   - Mac/Linux: 在终端中运行 `./start.sh`
+4. 在浏览器中访问 http://localhost:3838
+
+
 
 ### 项目结构
 
@@ -87,7 +89,7 @@ This is an R Shiny-based platform for processing and analyzing gene expression d
    - Mac/Linux: Run `./start.sh` in terminal
 4. Visit http://localhost:3838 in your browser
 
-### Manual Installation (Optional)
+### Manual Installation (recommend)
 
 If you already have R installed, you can choose manual installation:
 
@@ -153,7 +155,7 @@ If you already have R installed, you can choose manual installation:
    - Mac/Linux: ターミナルで `./start.sh` を実行します
 4. ブラウザで http://localhost:3838 にアクセスします
 
-### 手動インストール（オプション）
+### 手動インストール（推荐）
 
 R環境がすでにインストールされている場合は、手動インストールを選択することもできます：
 
