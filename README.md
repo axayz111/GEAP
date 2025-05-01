@@ -7,7 +7,7 @@
 
 <h2 id="chinese">中文说明</h2>
 
-这是一个基于R Shiny的基因表达数据分析平台，用于处理和分析基因表达数据。
+这是一个基于R Shiny的基因表达数据分析平台，用于处理和分析基因表达数据。原始的代码和文件分别位于 `code` 和 [Google Drive](https://drive.google.com/drive/folders/1khtq8DXYEjKuLAExIOkuSYvaYQNyIoeV?usp=share_link) 中。
 <img width="1694" alt="截屏2025-05-01 18 30 40" src="https://github.com/user-attachments/assets/a3add780-7889-4db3-8914-e2e3ed69c6e7" />
 <img width="1715" alt="截屏2025-05-01 18 33 16" src="https://github.com/user-attachments/assets/84b28011-a39a-4c28-88da-8fb57f148444" />
 
@@ -76,7 +76,7 @@
 
 <h2 id="english">English Description</h2>
 
-This is an R Shiny-based platform for processing and analyzing gene expression data.
+This is an R Shiny-based platform for processing and analyzing gene expression data.The original code is in `code` and the files are in [Google Drive](https://drive.google.com/drive/folders/1khtq8DXYEjKuLAExIOkuSYvaYQNyIoeV?usp=share_link).
 
 ### Quick Start
 
@@ -142,7 +142,7 @@ If you already have R installed, you can choose manual installation:
 
 <h2 id="japanese">日本語の説明</h2>
 
-これは、遺伝子発現データを処理および解析するためのR Shinyベースのプラットフォームです。
+これは、遺伝子発現データを処理および解析するためのR Shinyベースのプラットフォームです。オリジナルのコードは `` `code` `` に、ファイルは [Google Drive](https://drive.google.com/drive/folders/1khtq8DXYEjKuLAExIOkuSYvaYQNyIoeV?usp=share_link) にそれぞれあります。
 
 ### クイックスタート
 
