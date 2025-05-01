@@ -1,6 +1,6 @@
 # GEAP
-# 基因表达数据分析平台 | Gene Expression Analysis Analysis Platform | 遺伝子発現データ解析プラットフォーム
-
+# | Gene Expression Analysis Analysis Platform | 
+ 基因表达数据分析平台 || 遺伝子発現データ解析プラットフォーム
 <div align="right">
   <a href="#chinese">中文</a> | <a href="#english">English</a> | <a href="#japanese">日本語</a>
 </div>
