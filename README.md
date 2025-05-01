@@ -58,15 +58,51 @@
 
 ### 数据文件要求
 
-#### 训练数据集
-- GSE61144_series_matrix.csv
-- GSE61144_group_info.csv
-- GSE61144_id2gene.csv
+#### 训练数据集 & 验证数据集
+脚本需要以下三类 CSV 文件，所有文件都必须包含标题行。
 
-#### 验证数据集
-- GSE59867_series_matrix.csv
-- GSE59867_group_info.csv
-- GSE59867_id2gene.csv
+测量数据 (*_data.csv)
+```
+id,SampleA,SampleB,SampleC
+Probe_001,10.5,12.1,11.8
+Probe_002,5.2,null,5.5
+Probe_003,8.9,9.9,8.7
+```
+
+包含特征（如基因）在各样本的数值测量值。
+
+列: id (特征ID), Sample1, Sample2, ... (样本数据，数值或 "null")。
+
+样本列的顺序必须与分组文件 (*_group.csv) 的行顺序对应。
+
+样本分组信息 (*_group.csv)
+```
+Group
+control
+case
+control
+```
+
+指定各样本的组别。
+
+列: Group (组别名称，如 "case", "control" 推荐)。
+
+行顺序必须严格与对应 *_data.csv 文件中的样本列顺序一致。
+
+ID 到基因名映射 (*_id_to_gene.csv)
+```
+id,gene
+Probe_001,GeneX
+Probe_002,GeneY
+Probe_003,GeneZ
+```
+
+将特征 ID 映射到基因名称。
+
+列: id (特征ID), gene (基因名称)。
+
+
+
 
 ### 输出说明
 
@@ -124,15 +160,50 @@ If you already have R installed, you can choose manual installation:
 
 ### Data File Requirements
 
-#### Training Dataset
-- GSE61144_series_matrix.csv
-- GSE61144_group_info.csv
-- GSE61144_id2gene.csv
+#### Training Dataset & Validation Dataset
+The script requires the following three types of CSV files. All files must include a header row.
 
-#### Validation Dataset
-- GSE59867_series_matrix.csv
-- GSE59867_group_info.csv
-- GSE59867_id2gene.csv
+Measurement Data (*_data.csv)
+```
+id,SampleA,SampleB,SampleC
+Probe_001,10.5,12.1,11.8
+Probe_002,5.2,null,5.5
+Probe_003,8.9,9.9,8.7
+```
+
+Contains numerical measurements for features (like genes) in each sample.
+
+Columns: id (Feature ID), Sample1, Sample2, ... (Sample data, numeric or "null").
+
+The order of sample columns must correspond to the row order in the group file (*_group.csv).
+
+Sample Group Information (*_group.csv)
+```
+Group
+control
+case
+control
+```
+
+Specifies the group for each sample.
+
+Column: Group (Group name, e.g., "case", "control" recommended).
+
+Row order must strictly match the order of sample columns in the corresponding *_data.csv file.
+
+ID to Gene Mapping (*_id_to_gene.csv)
+```
+id,gene
+Probe_001,GeneX
+Probe_002,GeneY
+Probe_003,GeneZ
+```
+
+Maps feature IDs to gene names.
+
+Columns: id (Feature ID), gene (Gene name).
+
+
 
 ### Output Description
 
@@ -192,14 +263,47 @@ R環境がすでにインストールされている場合は、手動インス�
 ### データファイル要件
 
 #### トレーニングデータセット
-- GSE61144_series_matrix.csv
-- GSE61144_group_info.csv
-- GSE61144_id2gene.csv
+
 
 #### 検証データセット
-- GSE59867_series_matrix.csv
-- GSE59867_group_info.csv
-- GSE59867_id2gene.csv
+スクリプトは以下の3種類のCSVファイルを必要とします。全てのファイルにヘッダー行が必要です。
+
+測定データ (*_data.csv)
+```
+id,SampleA,SampleB,SampleC
+Probe_001,10.5,12.1,11.8
+Probe_002,5.2,null,5.5
+Probe_003,8.9,9.9,8.7
+```
+各サンプルにおける特徴量（遺伝子など）の数値測定値を含みます。
+
+列: id (特徴量ID), Sample1, Sample2, ... (サンプルデータ、数値または "null")。
+
+サンプル列の順序は、グループファイル (*_group.csv) の行順と対応必須です。
+
+サンプルグループ情報 (*_group.csv)
+```
+Group
+control
+case
+control
+```
+各サンプルのグループを指定します。
+
+列: Group (グループ名、例: "case", "control" 推奨)。
+
+行順は、対応する *_data.csv ファイルのサンプル列順と厳密に一致必須です。
+
+IDと遺伝子名の対応 (*_id_to_gene.csv)
+```
+id,gene
+Probe_001,GeneX
+Probe_002,GeneY
+Probe_003,GeneZ
+```
+特徴量IDを遺伝子名にマッピングします。
+
+列: id (特徴量ID), gene (遺伝子名)。
 
 ### 出力について
 
